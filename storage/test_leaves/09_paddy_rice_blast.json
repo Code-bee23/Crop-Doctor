@@ -1,0 +1,12 @@
+{
+  "is_plant": true,
+  "is_clear": true,
+  "spots": "spindle-shaped lesions with pointed ends, grey centres, and dark brown margins",
+  "colour": "pale grey centre surrounded by reddish brown border",
+  "curling": "none",
+  "insects_visible": "none",
+  "pattern_on_leaf": "eye-shaped blast lesions coalescing into large irregular patches",
+  "confidence_scores": {
+    "blast": 0.91
+  }
+}

@@ -1,4 +1,8 @@
-# Byte-compiled / optimized / DLL files
+# Storage runtime outputs
+storage/audio/tts_*.wav
+storage/audio/sim_*.wav
+storage/images/inbound_*.jpg
+storage/images/inbound_*.png
 __pycache__/
 *.py[codz]
 *$py.class

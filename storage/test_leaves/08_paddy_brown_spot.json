@@ -1,0 +1,12 @@
+{
+  "is_plant": true,
+  "is_clear": true,
+  "spots": "numerous circular to oval dark brown spots with prominent yellow halo",
+  "colour": "yellowing leaf blade surrounding spots",
+  "curling": "none",
+  "insects_visible": "none",
+  "pattern_on_leaf": "sesame-seed-like lesions scattered uniformly across leaf blade",
+  "confidence_scores": {
+    "brown_spot": 0.9
+  }
+}

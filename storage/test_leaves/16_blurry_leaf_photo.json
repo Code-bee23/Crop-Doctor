@@ -1,0 +1,12 @@
+{
+  "is_plant": true,
+  "is_clear": false,
+  "spots": "blurred indistinct smudge",
+  "colour": "greenish blur",
+  "curling": "cannot determine due to motion blur",
+  "insects_visible": "none visible",
+  "pattern_on_leaf": "camera focus failed; leaf venation and margins blurred",
+  "confidence_scores": {
+    "unclear": 0.95
+  }
+}

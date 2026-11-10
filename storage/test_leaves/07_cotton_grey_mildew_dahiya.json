@@ -1,0 +1,12 @@
+{
+  "is_plant": true,
+  "is_clear": true,
+  "spots": "angular pale translucent spots bounded by veinlets",
+  "colour": "frosty white powdery sporulation on lower leaf surface",
+  "curling": "premature curling and crisp drying of leaf",
+  "insects_visible": "none",
+  "pattern_on_leaf": "checkerboard angular patches resembling curd splash",
+  "confidence_scores": {
+    "grey_mildew": 0.88
+  }
+}

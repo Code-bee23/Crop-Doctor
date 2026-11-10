@@ -1,0 +1,12 @@
+{
+  "is_plant": true,
+  "is_clear": true,
+  "spots": "black sooty mould patches over sticky sheen",
+  "colour": "yellowish chlorotic leaf margin",
+  "curling": "severe downward cupping and crinkling of leaves",
+  "insects_visible": "dense colonies of tiny greenish-black soft-bodied aphids on leaf underside",
+  "pattern_on_leaf": "honeydew accumulation coated with black mould",
+  "confidence_scores": {
+    "aphids": 0.92
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "is_plant": true,
+  "is_clear": true,
+  "spots": "large irregular water-soaked dark greenish-black oily lesions on foliage and stems",
+  "colour": "purplish-black rapid blighting with delicate white fungal down on lower surface",
+  "curling": "rapid rotting and wilting of affected shoots",
+  "insects_visible": "none",
+  "pattern_on_leaf": "water-soaked rapidly expanding blotches",
+  "confidence_scores": {
+    "late_blight": 0.91
+  }
+}

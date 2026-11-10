@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: crop-doctor
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.12
+      - key: APP_ENV
+        value: production
+      - key: VACH_API_KEY
+        value: vach_1ytE2CY5X2Euwn8j6obEOkXQfjU3xmwjPYPQnZiWxranIUsOtWXKQhEThb0f05PrfJiG5Qzc33uDWeI1fn3ymZeZJCX5gy3j_2c4cca1ed3f7a995b53781a5238db1f0
+      - key: TIMBRE_TTS_API_URL
+        value: https://api.vachana.ai/api/v1/tts/inference
+      - key: PRISMA_STT_API_URL
+        value: https://api.vachana.ai/stt/v3
+      - key: WHATSAPP_VERIFY_TOKEN
+        value: crop_doctor_webhook_secret_verify_token_2026

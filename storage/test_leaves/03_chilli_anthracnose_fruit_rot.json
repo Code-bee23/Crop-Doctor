@@ -1,0 +1,12 @@
+{
+  "is_plant": true,
+  "is_clear": true,
+  "spots": "dark brown sunken circular lesions with concentric rings and black dots",
+  "colour": "straw-coloured bleached necrotic fruit tissue",
+  "curling": "dieback on adjacent twigs",
+  "insects_visible": "none",
+  "pattern_on_leaf": "circular necrotic targets on pods and foliage",
+  "confidence_scores": {
+    "anthracnose": 0.91
+  }
+}

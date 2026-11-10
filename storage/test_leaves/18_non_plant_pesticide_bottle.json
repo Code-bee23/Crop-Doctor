@@ -1,0 +1,12 @@
+{
+  "is_plant": false,
+  "is_clear": true,
+  "spots": "none (plastic container)",
+  "colour": "commercial bottle label and cap",
+  "curling": "none",
+  "insects_visible": "none",
+  "pattern_on_leaf": "not a plant specimen; image shows an input container",
+  "confidence_scores": {
+    "unclear": 0.99
+  }
+}

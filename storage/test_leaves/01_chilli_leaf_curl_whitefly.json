@@ -1,0 +1,13 @@
+{
+  "is_plant": true,
+  "is_clear": true,
+  "spots": "none",
+  "colour": "pale greenish yellow margin",
+  "curling": "severe upward curling of leaf margins with puckering",
+  "insects_visible": "tiny white winged insects (whiteflies) clustered on leaf underside",
+  "pattern_on_leaf": "interveinal puckering and upward cup shape",
+  "confidence_scores": {
+    "leaf_curl": 0.89,
+    "whitefly": 0.86
+  }
+}

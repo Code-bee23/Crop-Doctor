@@ -1,0 +1,12 @@
+{
+  "is_plant": true,
+  "is_clear": true,
+  "spots": "water-soaked soft brown lesion at collar region near soil line",
+  "colour": "pale dull green wilting foliage",
+  "curling": "toppled stem base",
+  "insects_visible": "none",
+  "pattern_on_leaf": "flaccid collapsed seedling",
+  "confidence_scores": {
+    "damping_off": 0.89
+  }
+}

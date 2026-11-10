@@ -1,0 +1,12 @@
+{
+  "is_plant": false,
+  "is_clear": true,
+  "spots": "none (rubber tread pattern and wet soil)",
+  "colour": "black rubber and dark brown mud",
+  "curling": "none",
+  "insects_visible": "none",
+  "pattern_on_leaf": "not a crop leaf; photo shows farm equipment",
+  "confidence_scores": {
+    "unclear": 0.99
+  }
+}

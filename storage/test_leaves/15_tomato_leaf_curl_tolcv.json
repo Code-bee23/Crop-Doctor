@@ -1,0 +1,13 @@
+{
+  "is_plant": true,
+  "is_clear": true,
+  "spots": "none",
+  "colour": "interveinal chlorosis with pale yellowish borders",
+  "curling": "severe upward and downward curling, thick puckering, stunted bushy foliage",
+  "insects_visible": "whitefly adults fluttering near growing tips",
+  "pattern_on_leaf": "thickened leathery crinkled leaves with shortened internodes",
+  "confidence_scores": {
+    "leaf_curl": 0.92,
+    "whitefly": 0.85
+  }
+}

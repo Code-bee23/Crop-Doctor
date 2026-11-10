@@ -1,0 +1,12 @@
+{
+  "is_plant": true,
+  "is_clear": false,
+  "spots": "cannot resolve leaf surface from distance",
+  "colour": "panoramic view of field canopy",
+  "curling": "cannot resolve individual leaves",
+  "insects_visible": "none visible from distance",
+  "pattern_on_leaf": "wide landscape shot; individual plant symptoms cannot be diagnosed",
+  "confidence_scores": {
+    "unclear": 0.96
+  }
+}

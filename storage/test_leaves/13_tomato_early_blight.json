@@ -1,0 +1,12 @@
+{
+  "is_plant": true,
+  "is_clear": true,
+  "spots": "brown to dark brown concentric rings forming target-board pattern on leaves",
+  "colour": "chlorotic yellow halo around dark circular spots",
+  "curling": "senescing leaf tips",
+  "insects_visible": "none",
+  "pattern_on_leaf": "concentric ring targets on lower canopy leaves",
+  "confidence_scores": {
+    "early_blight": 0.89
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "is_plant": true,
+  "is_clear": true,
+  "spots": "water-soaked sunken dark leathery black spot at the blossom end of green fruit",
+  "colour": "black sunken leathery depression on distal fruit end",
+  "curling": "none on leaves",
+  "insects_visible": "none",
+  "pattern_on_leaf": "confined to blossom end of developing fruit",
+  "confidence_scores": {
+    "calcium_deficiency": 0.92,
+    "blossom_end_rot": 0.94
+  }
+}

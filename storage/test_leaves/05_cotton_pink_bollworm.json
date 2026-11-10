@@ -1,0 +1,12 @@
+{
+  "is_plant": true,
+  "is_clear": true,
+  "spots": "small bore entry holes plugged with excreta on green boll, rosette flower petals",
+  "colour": "brownish staining inside boll",
+  "curling": "webbed rosette flower buds",
+  "insects_visible": "pinkish caterpillar larva inside locule feeding on seeds",
+  "pattern_on_leaf": "damage localized on fruiting bolls and squares",
+  "confidence_scores": {
+    "pink_bollworm": 0.93
+  }
+}

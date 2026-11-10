@@ -1,0 +1,13 @@
+{
+  "is_plant": true,
+  "is_clear": true,
+  "spots": "bronze and silvery streaks on lower surface",
+  "colour": "bronze discolored underside",
+  "curling": "boat-shaped upward curling of leaf margins",
+  "insects_visible": "minute slender yellowish insects",
+  "pattern_on_leaf": "lacerated rasped surface along veins",
+  "confidence_scores": {
+    "thrips": 0.87,
+    "leaf_curl": 0.72
+  }
+}

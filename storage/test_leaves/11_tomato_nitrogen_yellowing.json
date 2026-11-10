@@ -1,0 +1,12 @@
+{
+  "is_plant": true,
+  "is_clear": true,
+  "spots": "none (no fungal or bacterial lesions)",
+  "colour": "uniform pale yellowing chlorosis on older lower leaves",
+  "curling": "none",
+  "insects_visible": "none",
+  "pattern_on_leaf": "generalized leaf blade chlorosis with pale veins and thin petioles",
+  "confidence_scores": {
+    "nitrogen_deficiency": 0.89
+  }
+}

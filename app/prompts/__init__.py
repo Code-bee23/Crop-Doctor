@@ -1,0 +1,4 @@
+"""
+Crop Doctor System Prompts
+"""
+

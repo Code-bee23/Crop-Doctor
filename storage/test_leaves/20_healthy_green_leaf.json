@@ -1,0 +1,12 @@
+{
+  "is_plant": true,
+  "is_clear": true,
+  "spots": "none (no fungal, bacterial, or necrotic lesions)",
+  "colour": "deep uniform dark green",
+  "curling": "none (smooth natural flat blade)",
+  "insects_visible": "none",
+  "pattern_on_leaf": "clean healthy tissue with normal venation and turgidity",
+  "confidence_scores": {
+    "healthy": 0.95
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "is_plant": true,
+  "is_clear": true,
+  "spots": "scorched brown dried patches",
+  "colour": "drying yellow-brown straw appearance (hopper burn)",
+  "curling": "tillers drying and lodging",
+  "insects_visible": "brown/white-backed planthoppers congregated at base of hill",
+  "pattern_on_leaf": "circular drying patches spreading outwards",
+  "confidence_scores": {
+    "planthoppers": 0.88,
+    "hopper_burn": 0.86
+  }
+}
