@@ -5,7 +5,10 @@ import logging
 from pathlib import Path
 from typing import Optional, Dict, Any
 import httpx
-from PIL import Image
+try:
+    from PIL import Image
+except ImportError:
+    Image = None
 
 from app.config import get_settings
 from app.schemas import VisionObservation
@@ -132,20 +135,21 @@ class VisionModelService:
                 logger.warning(f"Failed to read image sidecar metadata {meta_file}: {e}")
 
         # Basic PIL inspection for image dimensions & blur/darkness check
-        try:
-            with Image.open(path) as img:
-                width, height = img.size
-                # If image is very small or extreme aspect ratio, flag as unclear
-                if width < 100 or height < 100:
-                    return VisionObservation(
-                        is_plant=True,
-                        is_clear=False,
-                        spots="Low resolution image",
-                        confidence_scores={"unclear": 0.90}
-                    )
-        except Exception as e:
-            logger.error(f"Cannot open image with PIL: {e}")
-            return VisionObservation(is_plant=False, is_clear=False, confidence_scores={"unclear": 1.0})
+        if Image is not None:
+            try:
+                with Image.open(path) as img:
+                    width, height = img.size
+                    # If image is very small or extreme aspect ratio, flag as unclear
+                    if width < 100 or height < 100:
+                        return VisionObservation(
+                            is_plant=True,
+                            is_clear=False,
+                            spots="Low resolution image",
+                            confidence_scores={"unclear": 0.90}
+                        )
+            except Exception as e:
+                logger.error(f"Cannot open image with PIL: {e}")
+                return VisionObservation(is_plant=False, is_clear=False, confidence_scores={"unclear": 1.0})
 
         # Name-based heuristic for known mock/test image fixtures
         stem = path.stem.lower()

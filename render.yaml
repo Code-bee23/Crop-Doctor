@@ -18,3 +18,4 @@ services:
         value: https://api.vachana.ai/stt/v3
       - key: WHATSAPP_VERIFY_TOKEN
         value: crop_doctor_webhook_secret_verify_token_2026
+
